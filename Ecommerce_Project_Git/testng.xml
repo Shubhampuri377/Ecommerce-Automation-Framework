@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite">
+	<listeners>
+		<listener class-name="com.store.utilities.ExtentReportListener"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+		<class name="com.store.testcases.TC_RegisterationPageTest"></class>
+	  <class name="com.store.testcases.TC_LoginPageTest"></class>
+	   <class name="com.store.testcases.TC_LoginPageTestDataDrivenTesting"></class>
+     <!-- <class name="com.store.testcases.TC_AddNewAddress"></class> -->
+      <class name="com.store.testcases.TC_ProductPageTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

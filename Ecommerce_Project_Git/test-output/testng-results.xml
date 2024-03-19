@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-19T12:12:02 IST" name="Automation Suite" finished-at="2024-03-19T12:13:23 IST" duration-ms="80514">
+    <groups>
+    </groups>
+    <test started-at="2024-03-19T12:12:02 IST" name="Test" finished-at="2024-03-19T12:13:23 IST" duration-ms="80514">
+      <class name="com.store.testcases.TC_ProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.testcases.TC_ProductPageTest@619713e5]" started-at="2024-03-19T12:12:59 IST" name="setup" finished-at="2024-03-19T12:13:07 IST" duration-ms="8344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifySearch()[pri:1, instance:com.store.testcases.TC_ProductPageTest@619713e5]" started-at="2024-03-19T12:13:07 IST" name="VerifySearch" finished-at="2024-03-19T12:13:12 IST" duration-ms="4340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySearch -->
+        <test-method signature="VerifyAddToCart()[pri:2, instance:com.store.testcases.TC_ProductPageTest@619713e5]" started-at="2024-03-19T12:13:12 IST" name="VerifyAddToCart" finished-at="2024-03-19T12:13:23 IST" duration-ms="11053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.store.testcases.TC_ProductPageTest@619713e5]" started-at="2024-03-19T12:13:23 IST" name="tearDown" finished-at="2024-03-19T12:13:23 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.store.testcases.TC_ProductPageTest -->
+      <class name="com.store.testcases.TC_LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.testcases.TC_LoginPageTest@130161f7]" started-at="2024-03-19T12:12:27 IST" name="setup" finished-at="2024-03-19T12:12:36 IST" duration-ms="9327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLogin()[pri:0, instance:com.store.testcases.TC_LoginPageTest@130161f7]" started-at="2024-03-19T12:12:36 IST" name="VerifyLogin" finished-at="2024-03-19T12:12:39 IST" duration-ms="2708" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [true] but found [false]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at com.store.testcases.TC_LoginPageTest.VerifyLogin(TC_LoginPageTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.store.testcases.TC_LoginPageTest@130161f7]" started-at="2024-03-19T12:12:39 IST" name="tearDown" finished-at="2024-03-19T12:12:39 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.store.testcases.TC_LoginPageTest -->
+      <class name="com.store.testcases.TC_RegisterationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.testcases.TC_RegisterationPageTest@c33b74f]" started-at="2024-03-19T12:12:03 IST" name="setup" finished-at="2024-03-19T12:12:14 IST" duration-ms="11227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyRegisteration()[pri:0, instance:com.store.testcases.TC_RegisterationPageTest@c33b74f]" started-at="2024-03-19T12:12:14 IST" name="VerifyRegisteration" finished-at="2024-03-19T12:12:27 IST" duration-ms="12919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyRegisteration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.store.testcases.TC_RegisterationPageTest@c33b74f]" started-at="2024-03-19T12:12:27 IST" name="tearDown" finished-at="2024-03-19T12:12:27 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.store.testcases.TC_RegisterationPageTest -->
+      <class name="com.store.testcases.TC_LoginPageTestDataDrivenTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.store.testcases.TC_LoginPageTestDataDrivenTesting@2c767a52]" started-at="2024-03-19T12:12:39 IST" name="setup" finished-at="2024-03-19T12:12:48 IST" duration-ms="8834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="VerifyLoginWithDataProvider(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.testcases.TC_LoginPageTestDataDrivenTesting@2c767a52]" started-at="2024-03-19T12:12:49 IST" name="VerifyLoginWithDataProvider" data-provider="LoginDataProvider" finished-at="2024-03-19T12:12:54 IST" duration-ms="5476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubham@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shubh puri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithDataProvider -->
+        <test-method signature="VerifyLoginWithDataProvider(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.store.testcases.TC_LoginPageTestDataDrivenTesting@2c767a52]" started-at="2024-03-19T12:12:54 IST" name="VerifyLoginWithDataProvider" data-provider="LoginDataProvider" finished-at="2024-03-19T12:12:59 IST" duration-ms="4869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubham1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Shubham Puri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginWithDataProvider -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.store.testcases.TC_LoginPageTestDataDrivenTesting@2c767a52]" started-at="2024-03-19T12:12:59 IST" name="tearDown" finished-at="2024-03-19T12:12:59 IST" duration-ms="167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.store.testcases.TC_LoginPageTestDataDrivenTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
